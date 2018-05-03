@@ -8,5 +8,12 @@
     %meta{content: 'width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no', name: 'viewport'}
     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
-  %body.hold-transition.skin-blue.sidebar-mini
-    = yield
+  %body#mach-gift.skin-blue.sidebar-mini
+    %div.wrapper
+      %header.main-header
+        %a.logo{href: '#'}
+          %span.logo-lg
+            マッハギフト
+        %nav.navbar.navbar-static-top
+      %div.content-wrapper
+        = yield
