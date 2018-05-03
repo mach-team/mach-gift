@@ -2,6 +2,6 @@
   "name": "mach-gift",
   "private": true,
   "dependencies": {
-    "admin-lte": "^3.0.0-alpha"
+    "admin-lte": "^2.4.3"
   }
 }
